@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap');
+
+:root {
+--bs-body-font-family:'Sono', sans-serif;
+    --bs-border-width: 4px;
+
+}
+
+nav {
+    backdrop-filter: blur(0.5rem);
+}
+.active:before {
+    content: "→ ";
+}
+
+@media (min-width: 992px) {
+    .active:before {
+        content: "↓ ";
+    }
+}
+#fondito{
+    background:blue url('https://picsum.photos/id/120/1500/800') no-repeat left top;
+    background-size:cover;
+}
